@@ -5,7 +5,8 @@ body {
   box-sizing: border-box;
   width: 144rem;
   font-family: 'Lato', sans-serif;
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  margin: auto; }
   body .pageHolder {
     width: 117rem;
     background-color: #ffffff;
