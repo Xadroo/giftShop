@@ -80,6 +80,9 @@ body{
 			list-style-type: none;
 			display: flex;
 			align-items: center;
+			div{
+				cursor:pointer;
+			}
 			div.dropdown {
 	    		position: relative;
 				padding: 0 2rem 0 2rem;
@@ -102,6 +105,7 @@ body{
 			}
 			.dropdown-content a:hover {
 				background-color: #f1f1f1
+
 			}
 			.dropdown:hover .dropdown-content {
 			    display: block;

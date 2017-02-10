@@ -64,6 +64,8 @@ body {
       list-style-type: none;
       display: flex;
       align-items: center; }
+      body .pageCategories ul.navCategories div {
+        cursor: pointer; }
       body .pageCategories ul.navCategories div.dropdown {
         position: relative;
         padding: 0 2rem 0 2rem;
