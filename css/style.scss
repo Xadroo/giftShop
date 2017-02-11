@@ -13,145 +13,182 @@ body{
 		width: 117rem;
 		background-color: #ffffff;
 		margin: auto;
-	}
-	.master-header{
-		div{
-			display: inline-block;
-		}
-		div img.logo{
-			display: inline-block;
-		}
-		div.navbarText{
-			float: right;
-			height: 4rem;
-		}
-		div ul.navbarTop {
-			margin-top: 0px;
-			padding-left: 50rem;
-			height: 0.6rem;
-		}
-			li{
-			padding: 0 1rem 0 1rem;
-			display: inline-block;
-		}
-		div.backRectangle{
-			color: #fff;
-			width: 98rem;
-			height: 9rem;
-			background-color: #f6f6f6;
-			display: flex;
-			justify-content: flex-end;
-			.menuBlock{
-				margin-left: 0.5rem;
-				position: relative;
-				height:9rem;
-				line-height: 9rem;
-				display: flex;
-				padding: 0 3rem 0 3rem;
-				flex-direction: row;
-				justify-content: center;
-				.fa{
-					font-family: 'FontAwesome';
-    				src: url('../font/fontawesome-webfont.eot');
-					margin-left: 0.2rem;
-					line-height: 9rem;
-				}
-			}
-			span{
-				margin-top: -0.5rem;
-			}
-			.red{
-					background-color: #f0626e;
-				}
-				.blue{
-					background-color: #05aecc;
-				}
-		}
-	}
-	.pageCategories{
-		display: flex;
-		margin: 1rem 0 1rem 0;
-		width: 100%;
-		height: 7rem;
-		background-color: #05aecc;
-		justify-content: space-around;
-		ul.navCategories{
-			color: #fff;
-			list-style-type: none;
-			display: flex;
-			align-items: center;
+		.master-header{
 			div{
-				cursor:pointer;
+				display: inline-block;
 			}
-			div.dropdown {
-	    		position: relative;
-				padding: 0 2rem 0 2rem;
-				height: 7rem;
-				line-height: 7rem;
+			div img.logo{
+				display: inline-block;
 			}
-			.dropdown-content {
-	    		display: none;
-	    		position: absolute;
-	    		background-color: #f9f9f9;
-	    		min-height: 10rem;
-	    		min-width: 26.5rem;
-	    		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	    		z-index: 1;
-				div.border{
-					border-bottom: 1px solid #000;
+			div.navbarText{
+				float: right;
+				height: 4rem;
+			}
+			div ul.navbarTop {
+				margin-top: 0px;
+				padding-left: 50rem;
+				height: 0.6rem;
+			}
+				li{
+				padding: 0 1rem 0 1rem;
+				display: inline-block;
+			}
+			div.backRectangle{
+				color: #fff;
+				width: 98rem;
+				height: 9rem;
+				background-color: #f6f6f6;
+				display: flex;
+				justify-content: flex-end;
+				.menuBlock{
+					margin-left: 0.5rem;
+					position: relative;
+					height:9rem;
+					line-height: 9rem;
+					display: flex;
+					padding: 0 3rem 0 3rem;
+					flex-direction: row;
+					justify-content: center;
+					.fa{
+						font-family: 'FontAwesome';
+	    				src: url('../font/fontawesome-webfont.eot');
+						margin-left: 0.2rem;
+						line-height: 9rem;
+					}
 				}
-	    		a {
-				    color: #000;
-				    padding: 1.2rem 1.6rem;
-				    text-decoration: none;
-				    display: block;
-				    img{
-				    	margin: 1px;
-				    	padding: 1px;
-				    }
-				    .dropContent{
-				    	width: 60%;
-				    	display: inline-block;
-				    	float: right;
-				    	margin: 0px;
-				    	.button{
-				    		height: 2rem;
-				    		width: 10rem;
-				    		display: flex;
-				    		line-height: 1rem;
-				    		font-size: 1rem;
-				    		background-color: $blue;	
-							span{
-								text-align: center;
-								color: #fff;
-								padding: 5px 20% 0 20%;
-
-							}
-				    	}
-				    p{
-				    	font-size: 1.4rem;
-						margin: 0px;
-				    	line-height: 2rem;
-				    	position: relative;
-				    	box-sizing: border-box;
-				    	span{
-				    		color: #f27a84;
-				    	}
-				    }
-				    }
+				span{
+					margin-top: -0.5rem;
 				}
-			}
-			.dropdown-content a:hover {
-				background-color: #f1f1f1
-
-			}
-			.dropdown:hover .dropdown-content {
-			    display: block;
-			}
-			.dropdown:hover{
-				background-color: #fff;
-				color: #f0626e;
+				.red{
+						background-color: #f0626e;
+					}
+					.blue{
+						background-color: #05aecc;
+					}
 			}
 		}
+		.pageCategories{
+			display: flex;
+			margin: 1rem 0 1rem 0;
+			width: 100%;
+			height: 7rem;
+			background-color: #05aecc;
+			justify-content: space-around;
+			ul.navCategories{
+				color: #fff;
+				list-style-type: none;
+				display: flex;
+				align-items: center;
+				div{
+					cursor:pointer;
+				}
+				div.dropdown {
+		    		position: relative;
+					padding: 0 2rem 0 2rem;
+					height: 7rem;
+					line-height: 7rem;
+				}
+				.dropdown-content {
+		    		display: none;
+		    		position: absolute;
+		    		background-color: #f9f9f9;
+		    		min-height: 10rem;
+		    		min-width: 26.5rem;
+		    		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		    		z-index: 1;
+					div.border{
+						border-bottom: 1px solid #000;
+					}
+		    		a {
+					    color: #000;
+					    padding: 1.2rem 1.6rem;
+					    text-decoration: none;
+					    display: block;
+					    img{
+					    	margin: 1px;
+					    	padding: 1px;
+					    }
+					    .dropContent{
+					    	width: 60%;
+					    	display: inline-block;
+					    	float: right;
+					    	margin: 0px;
+					    	.button{
+					    		height: 2rem;
+					    		width: 10rem;
+					    		display: flex;
+					    		line-height: 1rem;
+					    		font-size: 1rem;
+					    		background-color: $blue;	
+								span{
+									text-align: center;
+									color: #fff;
+									padding: 5px 20% 0 20%;
+
+								}
+					    	}
+					    p{
+					    	font-size: 1.4rem;
+							margin: 0px;
+					    	line-height: 2rem;
+					    	position: relative;
+					    	box-sizing: border-box;
+					    	span{
+					    		color: #f27a84;
+					    	}
+					    }
+					    }
+					}
+				}
+				.dropdown-content a:hover {
+					background-color: #f1f1f1
+
+				}
+				.dropdown:hover .dropdown-content {
+				    display: block;
+				}
+				.dropdown:hover{
+					background-color: #fff;
+					color: #f0626e;
+				}
+			}
+		}
+	.sliderContent{
+		.men{
+			display: flex;
+			float: left;
+			width: 67rem;
+			height: 57rem;
+			background: url('../images/men.jpg') no-repeat;
+			opacity: 1;
+			&:hover{
+				opacity: 0.7;
+			}
+		}
+		.women{
+			display: flex;
+			float: right;
+			width: 49.5rem;
+			height: 32rem;
+			background: url('../images/women.jpg') no-repeat;
+			opacity: 1;
+			&:hover{
+				opacity: 0.7;
+			}
+		}
+		.kids{
+			margin-top: 5px;
+			display: flex;
+			float: right;
+			width: 49.5rem;
+			height: 24.5rem;
+			background: url('../images/kid.jpg') no-repeat;
+			opacity: 1;
+			&:hover{
+				opacity: 0.7;
+			}
+		}
+
+	}
 	}
 }
