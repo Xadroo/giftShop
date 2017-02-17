@@ -122,6 +122,7 @@ body {
           color: #f0626e; }
     body .pageHolder .sliderContent .men {
       display: flex;
+      align-items: flex-end;
       float: left;
       width: 67rem;
       height: 57rem;
@@ -129,6 +130,53 @@ body {
       opacity: 1; }
       body .pageHolder .sliderContent .men:hover {
         opacity: 0.7; }
+      body .pageHolder .sliderContent .men .menText {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        width: 35rem;
+        height: 16rem; }
+        body .pageHolder .sliderContent .men .menText .menHigh {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 10rem;
+          background-color: #5c5068;
+          justify-content: center;
+          opacity: 0.9; }
+          body .pageHolder .sliderContent .men .menText .menHigh .menTitle {
+            display: block;
+            color: #ef5966;
+            font-size: 5.4rem;
+            line-height: 5.4rem;
+            margin: 0px;
+            font-weight: bold;
+            opacity: 1; }
+          body .pageHolder .sliderContent .men .menText .menHigh .menLane {
+            display: flex;
+            font-size: 1.3rem;
+            color: #fff;
+            font-weight: bold;
+            line-height: 1.3rem;
+            margin: 0 0 1rem 0;
+            opacity: 1; }
+        body .pageHolder .sliderContent .men .menText .menLow {
+          text-align: center;
+          justify-content: center;
+          margin-top: 0.2rem;
+          display: flex;
+          width: 100%;
+          height: 4rem;
+          background-color: #ef6b77;
+          opacity: 0.9; }
+          body .pageHolder .sliderContent .men .menText .menLow .menLane2 {
+            font-size: 2rem;
+            line-height: 2rem;
+            color: #fff;
+            display: flex;
+            margin: auto;
+            opacity: 1; }
     body .pageHolder .sliderContent .women {
       display: flex;
       float: right;
