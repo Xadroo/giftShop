@@ -128,10 +128,11 @@ body {
       align-items: flex-end;
       float: left;
       width: 67rem;
-      height: 57rem; }
+      height: 57rem;
+      background: url("../images/men.jpg") no-repeat; }
+      body .pageHolder .sliderContent .men:hover {
+        opacity: 0.9; }
       body .pageHolder .sliderContent .men .menText {
-        z-index: 1;
-        position: absolute;
         display: flex;
         align-items: flex-end;
         flex-direction: column;
@@ -147,6 +148,7 @@ body {
           justify-content: center;
           text-align: left; }
           body .pageHolder .sliderContent .men .menText .menHigh .menTitle {
+            text-decoration: none;
             display: block;
             color: #ef5966;
             font-size: 4.8rem;
@@ -187,7 +189,7 @@ body {
       background: url("../images/women.jpg") no-repeat;
       opacity: 1; }
       body .pageHolder .sliderContent .women:hover {
-        opacity: 0.7; }
+        opacity: 0.8; }
       body .pageHolder .sliderContent .women .womenText {
         text-align: left;
         display: flex;
@@ -199,6 +201,7 @@ body {
         padding-left: 1rem;
         margin-bottom: 1rem; }
         body .pageHolder .sliderContent .women .womenText .womenTitle {
+          text-decoration: none;
           display: block;
           color: #ef5966;
           font-size: 3.5rem;
@@ -220,8 +223,45 @@ body {
       width: 49.5rem;
       height: 24.5rem;
       background: url("../images/kid.jpg") no-repeat;
-      opacity: 1; }
+      opacity: 1;
+      justify-content: flex-end; }
+      body .pageHolder .sliderContent .kids div {
+        display: none; }
       body .pageHolder .sliderContent .kids:hover {
-        opacity: 0.7; }
+        opacity: 0.9; }
+        body .pageHolder .sliderContent .kids:hover .kidsBox {
+          display: flex;
+          flex-direction: row;
+          line-height: 5rem;
+          align-items: flex-end;
+          padding-bottom: 4rem; }
+          body .pageHolder .sliderContent .kids:hover .kidsBox div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 5rem;
+            background-color: #000;
+            padding: 0.5rem 1rem 0.5rem 1rem; }
+          body .pageHolder .sliderContent .kids:hover .kidsBox .kids1 {
+            background-color: #05aecc;
+            color: #fff;
+            width: 10rem; }
+            body .pageHolder .sliderContent .kids:hover .kidsBox .kids1 a {
+              text-decoration: none;
+              color: white; }
+          body .pageHolder .sliderContent .kids:hover .kidsBox .kids2 {
+            background-color: #00a1be;
+            color: #fff; }
+          body .pageHolder .sliderContent .kids:hover .kidsBox .kids3 {
+            background-color: #f0626e;
+            color: #fff; }
+          body .pageHolder .sliderContent .kids:hover .kidsBox .kids4 {
+            color: #fff;
+            font-size: 1.6rem; }
+            body .pageHolder .sliderContent .kids:hover .kidsBox .kids4 .kidSpan1 {
+              font-size: 2.4rem;
+              padding-left: 0.4rem; }
+            body .pageHolder .sliderContent .kids:hover .kidsBox .kids4 .kidSpan2 {
+              font-size: 1.8rem; }
 
 /*# sourceMappingURL=style.css.map */
