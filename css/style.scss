@@ -343,6 +343,53 @@ body{
 				padding-left: 2rem;
 			}
 		}
+		.jewelry{
+			display: flex;
+			float: right;
+			height: 50.5rem;
+			width: 49.5rem;
+			background: url('../images/jewelry.jpg') no-repeat;
+			margin: 5px 0 5px 0;
+			&:hover{
+				opacity: 0.9;
+			}
+			.jewelryBox{
+				display: flex;
+				background-color: rgba(92, 80, 104, 0.88);
+			    position: absolute;
+				width: 40rem;
+				height: 9rem;
+				justify-content: flex-start;
+				margin-left: 24.8rem;
+    			margin-top: 26rem;
+    			align-items: center;
+    			p{
+    				font-family: 'aparaj';
+	    			font-size: 5rem;
+	    			color: #fff;
+	    			line-height: 5rem;
+	    			margin: 0;
+	    			padding-left: 3rem;
+    			}
+    			.jewelryRedBox{
+    				z-index: 1;
+    				height: 10rem;
+    				width: 8.5rem;
+    				margin-bottom: 1rem;
+    				margin-left: 3rem;
+    				background-color: #ee6470;
+    				.fa{
+    					padding: 0.3rem;
+    					color: #fff;
+    					font-size: 9rem;
+    				}
+    			}
+			}
+			.vertical-text {
+			transform: rotate(270deg);
+			}
+		}
+
 		.crafts{
 			display: flex;
 			float: left;
@@ -432,6 +479,7 @@ body{
 			}
 		}
 		}
+
 	}
 	}
 }
