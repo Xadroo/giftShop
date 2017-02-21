@@ -263,5 +263,94 @@ body {
               padding-left: 0.4rem; }
             body .pageHolder .sliderContent .kids:hover .kidsBox .kids4 .kidSpan2 {
               font-size: 1.8rem; }
+    body .pageHolder .sliderContent .searchBar {
+      display: flex;
+      align-items: center;
+      float: left;
+      width: 67rem;
+      height: 17rem;
+      background-color: #f0626e;
+      margin: 5px 5px 5px 0; }
+      body .pageHolder .sliderContent .searchBar .searchArea {
+        height: 6rem;
+        width: 40rem;
+        margin-left: 4rem; }
+      body .pageHolder .sliderContent .searchBar .fa {
+        font-size: 7rem;
+        color: #fff;
+        padding-left: 2rem; }
+    body .pageHolder .sliderContent .crafts {
+      display: flex;
+      float: left;
+      width: 67rem;
+      height: 33rem;
+      background: url("../images/crafts.jpg") no-repeat;
+      justify-content: flex-end; }
+      body .pageHolder .sliderContent .crafts:hover {
+        opacity: 0.9; }
+      body .pageHolder .sliderContent .crafts .craftsBox {
+        display: flex;
+        flex-direction: row;
+        line-height: 4rem;
+        align-items: flex-end; }
+        body .pageHolder .sliderContent .crafts .craftsBox div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 4rem;
+          background-color: #434343;
+          padding: 0.5rem 1rem 0.5rem 1rem; }
+        body .pageHolder .sliderContent .crafts .craftsBox .crafts1 {
+          background-color: rgba(92, 80, 104, 0.88);
+          width: 20rem; }
+          body .pageHolder .sliderContent .crafts .craftsBox .crafts1 a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 3rem; }
+        body .pageHolder .sliderContent .crafts .craftsBox .crafts2 {
+          background-color: #00a1be;
+          color: #fff; }
+        body .pageHolder .sliderContent .crafts .craftsBox .crafts3 {
+          background-color: #f0626e; }
+          body .pageHolder .sliderContent .crafts .craftsBox .crafts3 a {
+            color: #fff;
+            text-decoration: none; }
+        body .pageHolder .sliderContent .crafts .craftsBox .tooltip {
+          position: relative;
+          display: inline-block;
+          border-bottom: 1px solid #f0626e; }
+          body .pageHolder .sliderContent .crafts .craftsBox .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: #fff;
+            color: #000;
+            text-align: center;
+            border-radius: 6px;
+            border: 1px solid #f0626e;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 2;
+            bottom: 110%;
+            left: 50%;
+            margin-left: -60px; }
+            body .pageHolder .sliderContent .crafts .craftsBox .tooltip .tooltiptext:after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              margin-left: -5px;
+              border-width: 5px;
+              border-style: solid;
+              border-color: #f0626e transparent transparent transparent; }
+          body .pageHolder .sliderContent .crafts .craftsBox .tooltip:hover .tooltiptext {
+            visibility: visible; }
+        body .pageHolder .sliderContent .crafts .craftsBox .crafts4 {
+          color: #fff;
+          font-size: 1.6rem; }
+          body .pageHolder .sliderContent .crafts .craftsBox .crafts4 .craftsSpan1 {
+            font-size: 2.4rem;
+            padding-left: 0.4rem; }
+          body .pageHolder .sliderContent .crafts .craftsBox .crafts4 .craftsSpan2 {
+            font-size: 1.8rem; }
 
 /*# sourceMappingURL=style.css.map */
