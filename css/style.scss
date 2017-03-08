@@ -405,85 +405,204 @@ body{
 				opacity: 0.9;
 			}
 			.craftsBox{
+					display: flex;
+					flex-direction: row;
+					line-height: 4rem;
+					align-items: flex-end;					
+				div{
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						height: 4rem;
+						background-color: #434343;
+						padding: 0.5rem 1rem 0.5rem 1rem
+					}
+				.crafts1{
+					background-color: rgba(92, 80, 104, 0.88);
+					width: 20rem;
+					a{
+						text-decoration: none;
+						color: #fff;
+						font-size: 3rem;
+					}
+					}
+				.crafts2{
+					background-color: #00a1be;
+					color: #fff;
+					}
+				.crafts3{
+					background-color: #f0626e;
+					a{
+						color: #fff;
+						text-decoration: none;
+					}
+					.fa{
+						margin-top: 0.5rem;
+					}
+				}
+				.tooltip {
+				    position: relative;
+				    display: inline-block;
+				.tooltiptext {
+				    visibility: hidden;
+				    width: 120px;
+				    background-color: #fff;
+				    color: #000;
+				    text-align: center;
+				    border-radius: 6px;
+				    border: 1px solid #f0626e;
+				    padding: 5px 0;
+				    position: absolute;
+				    z-index: 2;
+				    bottom: 110%;
+				    left: 50%;
+				    margin-left: -60px;
+				&:after {
+				    content: "";
+				    position: absolute;
+				    top: 100%;
+				    left: 50%;
+				    margin-left: -5px;
+				    border-width: 5px;
+				    border-style: solid;
+				    border-color: #f0626e transparent transparent transparent;
+				}
+				}
+				&:hover .tooltiptext {
+				    visibility: visible;
+				}
+				}
+				.crafts4{
+					color: #fff;
+					font-size: 1.6rem;
+					.craftsSpan1{
+						font-size: 2.4rem;
+						padding-left: 0.4rem;
+					}
+					.craftsSpan2{
+						font-size: 1.8rem;
+					}
+				}
+			}
+		}
+	}
+	.titleBlock{
+			width: 100%;
+			height: 9rem;
+			background-color: #fff;
+			clear: both;
+			border-bottom: 1px solid #b9b9b9;
+			.titleProducts{
+				width: 20rem;
+				height: 3rem;
+				line-height: 3rem;
+				display: flex;
+				float: left;
+				margin: 5.5rem 0 0 3.5rem;
+			    padding-bottom: 0.5rem;
+			    border-bottom: 1px solid #f0626e;
+			    font-size: 3rem;
+			    color: #00a1be;
+			}
+			.navButtons{
+				margin-top: 2rem;
+				display: flex;
+				float: right;
+				width: 14rem;
+				height: 7rem;
+				align-items: flex-end;	
+				.navBox{
+					align-items: center;
+					justify-content: center;
+					display: flex;
+					width: 7rem;
+					height: 7rem;
+					background-color: #3c3c3c;
+					&:hover{
+						background-color: #05aecc;
+					}
+					a{
+						text-decoration: none;
+						color: #fff;
+					}
+				}	
+			}
+	}
+	.offertBar{
+			display: flex;
+			width: 100%;
+			height: 20rem;
+			justify-content: space-between;
+			margin-top: 2rem;
+			.offertBox{
+				display: flex;
+				width: 37rem;
+				height: 20rem;
+			}
+			.boxOne{
+				background: url('../images/newItem1.jpg') no-repeat;
+				&:hover{
+				opacity: 0.9;
+			}
+			}
+			.boxTwo{
+				background: url('../images/newItem2.jpg') no-repeat;
+				div{
+				display: none;
+			}
+				&:hover{
+				opacity: 0.9;
+				.boxTwoInside{
 				display: flex;
 				flex-direction: row;
-				line-height: 4rem;
-				align-items: flex-end;					
-			div{
+				line-height: 5rem;
+				align-items: center;
+				margin: auto;				
+				div{
 					display: flex;
 					justify-content: center;
 					align-items: center;
-					height: 4rem;
-					background-color: #434343;
+					height: 5rem;
+					background-color: #000;
 					padding: 0.5rem 1rem 0.5rem 1rem
 				}
-			.crafts1{
-				background-color: rgba(92, 80, 104, 0.88);
-				width: 20rem;
-				a{
-					text-decoration: none;
-					color: #fff;
-					font-size: 3rem;
-				}
-				}
-			.crafts2{
-				background-color: #00a1be;
-				color: #fff;
-				}
-			.crafts3{
-				background-color: #f0626e;
-				a{
-					color: #fff;
-					text-decoration: none;
+					.two1{
+						background-color: #05aecc;
+						color: #fff;
+						width: 10rem;
+						a{
+						text-decoration: none;
+						color: white;
+					}
+					}
+					.two2{
+						background-color: #00a1be;
+						color: #fff;
+					}
+					.two3{
+						background-color: #f0626e;
+						color: #fff;
+					}
+					.two4{
+						color: #fff;
+						font-size: 1.6rem;
+						.twoSpan1{
+							font-size: 2.4rem;
+							padding-left: 0.4rem;
+						}
+						.twoSpan2{
+							font-size: 1.8rem;
+						}
+					}
 				}
 			}
-			.tooltip {
-			    position: relative;
-			    display: inline-block;
-			    border-bottom: 1px solid #f0626e;
-			.tooltiptext {
-			    visibility: hidden;
-			    width: 120px;
-			    background-color: #fff;
-			    color: #000;
-			    text-align: center;
-			    border-radius: 6px;
-			    border: 1px solid #f0626e;
-			    padding: 5px 0;
-			    position: absolute;
-			    z-index: 2;
-			    bottom: 110%;
-			    left: 50%;
-			    margin-left: -60px;
-			&:after {
-			    content: "";
-			    position: absolute;
-			    top: 100%;
-			    left: 50%;
-			    margin-left: -5px;
-			    border-width: 5px;
-			    border-style: solid;
-			    border-color: #f0626e transparent transparent transparent;
 			}
+			.boxThree{
+				background: url('../images/newItem3.jpg') no-repeat;
+				&:hover{
+				opacity: 0.9;
 			}
-			&:hover .tooltiptext {
-			    visibility: visible;
-			}
-			}
-			.crafts4{
-				color: #fff;
-				font-size: 1.6rem;
-				.craftsSpan1{
-					font-size: 2.4rem;
-					padding-left: 0.4rem;
-				}
-				.craftsSpan2{
-					font-size: 1.8rem;
-				}
 			}
 		}
-		}
-
-	}
 	}
 }
