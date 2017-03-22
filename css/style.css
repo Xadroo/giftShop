@@ -856,9 +856,12 @@ body {
           text-align: center; }
     body .pageHolder .bottomContent {
       display: flex;
-      height: 43rem; }
+      height: 43rem;
+      border-bottom: 1px solid #b9b9b9; }
       body .pageHolder .bottomContent div {
         font-size: 2.6rem; }
+        body .pageHolder .bottomContent div p {
+          margin-bottom: 4rem; }
         body .pageHolder .bottomContent div ul {
           list-style: none;
           padding: 0; }
@@ -877,5 +880,28 @@ body {
         width: 22%; }
       body .pageHolder .bottomContent .col4 {
         width: 33%; }
+        body .pageHolder .bottomContent .col4 .bars div {
+          width: 38rem;
+          font-size: 1.4rem;
+          text-align: center;
+          height: 8rem;
+          line-height: 8rem;
+          border: 1px solid #dedede;
+          box-sizing: border-box; }
+        body .pageHolder .bottomContent .col4 .bars a {
+          text-decoration: none; }
+          body .pageHolder .bottomContent .col4 .bars a div {
+            height: 6rem;
+            line-height: 6rem;
+            background-color: #05aecc;
+            color: #fff; }
+        body .pageHolder .bottomContent .col4 .social {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between; }
+          body .pageHolder .bottomContent .col4 .social div {
+            display: flex; }
+          body .pageHolder .bottomContent .col4 .social a {
+            text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

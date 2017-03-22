@@ -1055,8 +1055,12 @@ body{
 		.bottomContent{
 			display: flex;
 			height: 43rem;
+			border-bottom: 1px solid #b9b9b9;
 			div{
 				font-size: 2.6rem;
+				p{
+					margin-bottom: 4rem;
+				}
 				ul{
 					list-style: none;
 					padding: 0;
@@ -1083,6 +1087,37 @@ body{
 			}
 			.col4{
 				width: 33%;
+				.bars{
+					div{
+						width: 38rem;
+						font-size: 1.4rem;
+						text-align: center;
+						height: 8rem;
+						line-height: 8rem;
+						border: 1px solid #dedede;
+						box-sizing: border-box;
+					}
+					a{
+						text-decoration: none;
+						div{
+						height: 6rem;
+						line-height: 6rem;
+						background-color: #05aecc;
+						color: #fff; 
+					}
+					}
+				}
+				.social{
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+					div{
+						display: flex;
+					}
+					a{
+						text-decoration: none;
+					}
+				}
 			}
 		}
 	}
