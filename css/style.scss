@@ -1004,7 +1004,6 @@ body{
 					height: 3.5rem;
 					line-height: 3rem;
 					display: flex;
-					float: left;
 					margin: 2.5rem 0 0 0;
 				    font-size: 3rem;
 				    color: #00a1be;
@@ -1019,7 +1018,6 @@ body{
 				}
 				.text{
 					margin: 0 3.5rem 0 3.5rem;
-					float: left;
 				}
 				.row{
 				width: 100%;
@@ -1027,7 +1025,6 @@ body{
 				clear: both;
 				}
 				.steps{
-					float: left;
 					display: flex;
 					div{
 						display: flex;
@@ -1061,7 +1058,6 @@ body{
 			div{
 				font-size: 2.6rem;
 				ul{
-					float: left;
 					list-style: none;
 					padding: 0;
 					a{

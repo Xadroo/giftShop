@@ -817,7 +817,6 @@ body {
         height: 3.5rem;
         line-height: 3rem;
         display: flex;
-        float: left;
         margin: 2.5rem 0 0 0;
         font-size: 3rem;
         color: #00a1be;
@@ -829,14 +828,12 @@ body {
           height: 3rem;
           margin: 0 0 0 3.5rem; }
       body .pageHolder .whoWeAre .text {
-        margin: 0 3.5rem 0 3.5rem;
-        float: left; }
+        margin: 0 3.5rem 0 3.5rem; }
       body .pageHolder .whoWeAre .row {
         width: 100%;
         height: 3rem;
         clear: both; }
       body .pageHolder .whoWeAre .steps {
-        float: left;
         display: flex; }
         body .pageHolder .whoWeAre .steps div {
           display: flex;
@@ -863,7 +860,6 @@ body {
       body .pageHolder .bottomContent div {
         font-size: 2.6rem; }
         body .pageHolder .bottomContent div ul {
-          float: left;
           list-style: none;
           padding: 0; }
           body .pageHolder .bottomContent div ul a {
