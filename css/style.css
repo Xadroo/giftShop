@@ -807,22 +807,79 @@ body {
                 font-size: 1.8rem; }
         body .pageHolder .featuredBar .box4:hover {
           opacity: 0.9; }
-    body .pageHolder .titleBlock3 {
+    body .pageHolder .whoWeAre {
       width: 100%;
-      height: 6rem;
+      height: 56rem;
       background-color: #fff;
-      clear: both;
       border-bottom: 1px solid #b9b9b9; }
-      body .pageHolder .titleBlock3 .titleProducts3 {
-        width: 20rem;
-        height: 3rem;
+      body .pageHolder .whoWeAre .titleProducts3 {
+        width: 100%;
+        height: 3.5rem;
         line-height: 3rem;
         display: flex;
         float: left;
-        margin: 2.5rem 0 0 3.5rem;
-        padding-bottom: 0.5rem;
-        border-bottom: 1px solid #f0626e;
+        margin: 2.5rem 0 0 0;
         font-size: 3rem;
-        color: #00a1be; }
+        color: #00a1be;
+        border-bottom: 1px solid #b9b9b9; }
+        body .pageHolder .whoWeAre .titleProducts3 p {
+          padding-bottom: 0.5rem;
+          border-bottom: 1px solid #f0626e;
+          width: 20rem;
+          height: 3rem;
+          margin: 0 0 0 3.5rem; }
+      body .pageHolder .whoWeAre .text {
+        margin: 0 3.5rem 0 3.5rem;
+        float: left; }
+      body .pageHolder .whoWeAre .row {
+        width: 100%;
+        height: 3rem;
+        clear: both; }
+      body .pageHolder .whoWeAre .steps {
+        float: left;
+        display: flex; }
+        body .pageHolder .whoWeAre .steps div {
+          display: flex;
+          width: 36.9rem;
+          height: 23.2rem; }
+        body .pageHolder .whoWeAre .steps div:nth-child(even) {
+          margin-right: 3rem;
+          margin-left: 3rem; }
+      body .pageHolder .whoWeAre a {
+        text-decoration: none; }
+        body .pageHolder .whoWeAre a .register {
+          margin: auto;
+          clear: both;
+          font-size: 2.7rem;
+          width: 65rem;
+          height: 7rem;
+          background-color: #05aecc;
+          color: #fff;
+          line-height: 7rem;
+          text-align: center; }
+    body .pageHolder .bottomContent {
+      display: flex;
+      height: 43rem; }
+      body .pageHolder .bottomContent div {
+        font-size: 2.6rem; }
+        body .pageHolder .bottomContent div ul {
+          float: left;
+          list-style: none;
+          padding: 0; }
+          body .pageHolder .bottomContent div ul a {
+            text-decoration: none; }
+            body .pageHolder .bottomContent div ul a li {
+              font-size: 1.6rem;
+              line-height: 3rem;
+              color: #676767; }
+      body .pageHolder .bottomContent .col1 {
+        margin-left: 3.5rem;
+        width: 25%; }
+      body .pageHolder .bottomContent .col2 {
+        width: 20%; }
+      body .pageHolder .bottomContent .col3 {
+        width: 22%; }
+      body .pageHolder .bottomContent .col4 {
+        width: 33%; }
 
 /*# sourceMappingURL=style.css.map */
